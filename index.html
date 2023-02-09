@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="bg">
+    <div class="main_container" id="main_container">
+        <header>
+            <div class="user_score">
+                <p>User: 
+                    <span id="userCounterEl">0</span>
+                </p>
+            </div>
+            <div class="random_score">
+                <p>Computer: 
+                    <span id="randomCounterEl">0</span>
+                </p>
+            </div>
+        </header>
+        <div class="main_sub_container">
+            <div class="users_container">
+                <img class="user user_paper" id="user_paper" src="/paper.png">   
+                <img class="user user_rock" id="user_rock" src="/Rock.png">   
+                <img class="user user_scissors" id="user_scissors" src="/Scissors.png">
+            </div>
+            <div class="result_container">
+                <h2 class="message" id="message">Want to play?</h2>
+                <button id="reset" class="reset">
+                    Reset
+                </button>
+            </div>
+            <div class="random_container">
+                <img class="random random_paper" id="random_paper" src="/paper.png">   
+                <img class="random random_rock" id="random_rock" src="/Rock.png">   
+                <img class="random random_scissors" id="random_scissors" src="/Scissors.png">
+            </div>   
+        </div>
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>
